@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(9, 15, 27);
+    color: white;
+    position: relative;
+}
+
+.cloud-store-image{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding: 18px 90px;
+}
+
+.deep-brief-small-paragraph{
+    padding: 18px 90px;
+}
+
+.explain-2{
+    padding: 18px 90px;
+}
+
+.storage-image{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card{
+    background: transparent !important;
+    color: white !important;
+}
+
+.text-decoration-none,
+.text-muted{
+    color: rgb(167, 160, 160) !important;
+}
+
+.table>:not(caption)>*>*{
+    background: transparent !important;
+    background-color: rgb(9, 15, 27) !important;
+    color: white !important;
+}

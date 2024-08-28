@@ -1,0 +1,143 @@
+.sidebar-container{
+    width: 330px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: rgb(9, 15, 27);
+    color: white;
+    overflow-y: scroll;
+}
+
+.cancel-menubar{
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    padding: 8px;
+    border-radius: 50%;
+    z-index: 4080;
+    color: white;
+    background-color: rgb(13, 110, 253);
+    cursor: pointer;
+}
+
+/* Creates responsive side bar for ipad users */
+@media (max-width: 720px) {
+    .sidebar-container{
+        display: none; /* display side bar display to none */
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    .sidebar-container.active-menu{
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 3000;
+        display: block;
+        width: 220px;
+        padding-top: 5px;      
+    }
+}
+
+@media (max-width: 720px) {
+    .sidebar-container.cancel-menu{
+        display: none;
+    }
+}
+
+
+.logo-image-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo-universal-tech-studio{
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),
+    5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.features-display{
+    margin: 5px 9px;
+}
+
+
+.features-link-container{
+    padding: 10px;
+}
+
+.mb-1{
+    list-style: none !important;
+}
+
+.features-dropdown-btn{
+    padding: 5px 12px;
+    background-color: rgb(13, 110, 253);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.features-dropdown-btn:hover{
+    background: transparent;
+    color: rgb(13, 110, 253);
+    border-radius: 0 !important;
+    border-bottom: 4px solid rgb(13, 110, 253);
+    padding-bottom: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.team-profile-container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.profile-team-image{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.profile-information{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.team-profile-name,
+.job-category{
+    margin: 0;
+    padding: 0 9.789px;
+}
+
+.team-icon-class{
+    flex-grow: 1;
+    font-size: 18px;
+    text-align: end !important;
+    padding-right: 10px;
+}
+
+.studio-btn{
+    border: none;
+    border-radius: 0 !important;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(116, 110, 110);
+    padding: 0;
+    margin-top: 9px;
+}

@@ -1,0 +1,522 @@
+body{
+    background-color: rgb(9, 15, 27);
+    color: white;
+    position: relative;
+}
+.main-section-page-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.page-main-content-section{
+    flex-grow: 1;
+    height: 100vh;
+    overflow-y: auto;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.about-tech-section,
+.text-section,
+.header-display-text,
+.text-white{
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+
+
+.fixed-top{
+    width: calc(100% - 20px); 
+}
+
+.form-control{
+    background: transparent;
+    color: white !important;
+}
+
+.form-control::placeholder{
+    color: rgb(160, 149, 149);
+    font-size: 14px;
+}
+
+.swiper-section-design-container{
+    margin-top: 80px;
+}
+
+@media (max-width: 340px) {
+    .swiper-section-design-container{
+        margin-top: 120px;
+    }
+}
+/* styles for the body of our css home page */
+
+.card{
+    background: transparent;
+    color: white;
+}
+
+.card-text,
+.text-muteds,
+.Title{
+    color: white !important;
+}
+
+.border-bottom{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+    "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.content-photo-design-container-relative{
+    position: relative;
+    width: 100%;
+    height: 440px;
+}
+
+@media (max-width: 720px) {
+    .content-photo-design-container-relative{
+        height: 300px;
+    } 
+}
+
+@media (max-width: 590px) {
+    .content-photo-design-container-relative{
+        height: 350px;
+    } 
+}
+
+.photo-camera-laptop-image{
+    object-fit: cover;
+}
+
+.photo-design-absolute-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    background-color: rgba(8, 16, 20, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 50%;
+    text-align: start;
+    padding-right: 30px;
+}
+
+@media (max-width: 520px) {
+    .photo-design-absolute-content{
+        padding-left: 30%;
+        text-align: start;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .photo-design-absolute-content{
+        padding-left: 6%;
+        text-align: start;
+        padding-right: 10px;
+    }
+}
+
+.design-head-3,
+.design-paragraph,
+.recieve-message-btn{
+    z-index: 25;
+}
+
+.design-head-3{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button-class-div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.bi-arrow-up-right-circle{
+    font-size: 17px;
+}
+
+.recieve-message-btn{
+    padding: 6px 13px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(13, 110, 253);
+    color: rgb(247, 238, 238);
+    text-align: start;
+}
+
+.camera-design-image{
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+
+@media (max-width: 720px) {
+    .camera-design-image{
+        width: 340px;
+    }
+}
+
+@media (max-width: 500px) {
+    .camera-design-image{
+        width: 260px;
+        bottom: 60px;
+    }
+}
+
+@media (max-width: 230px) {
+    .camera-design-image{
+        display: none;
+    }
+}
+
+
+
+.card-sample-image {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    height: 200px;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .card-sample-image {
+      height: 300px !important;
+    }
+  }
+
+  @media (max-width: 440px) {
+    .card-sample-image {
+      height: 250px !important;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .card-sample-image {
+      height: 200px !important;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .card-sample-image {
+      height: 180px !important;
+    }
+  }
+
+.display-profesion-section{
+    padding: 25px 40px;
+}
+
+@media (max-width: 365px) {
+    .display-profesion-section{
+        padding: 8px 16px;
+    }
+}
+
+
+.featurette{
+    align-items: center !important;
+}
+
+.bootstrap-featurette-head-text{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media (max-width: 590px) {
+    .design-paragraph{
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 460px) {
+    .design-paragraph{
+        background-color: rgb(27, 44, 54, 0.7);
+        padding: 5px;
+    }
+}
+
+.lead,
+.design-paragraph,
+.details-text
+.features-paragraph{
+    font-family: "Anek Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.text-muteds{
+    color: rgb(124, 118, 118) !important;
+}
+
+.center-content-image-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.help-btn{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(13, 110, 253);
+}
+
+.help-btn:hover{
+    background: transparent;
+    color: rgb(13, 110, 253);
+    transform: scale(1.2);
+    transition: .4s;
+    border: 0.5px solid rgb(228, 221, 221);
+}
+
+.small-digital-text{
+    font-family: "Anek Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 15.230px;
+}
+
+.centered-image-digital{
+    object-fit: cover;
+    height: 390px;
+}
+
+@media (max-width: 590px) {
+    .centered-image-digital{
+        width: 95%;
+    }
+}
+
+.development-and-product-section{
+    margin: 17px 50px;
+}
+
+@media (max-width: 465px) { 
+.development-and-product-section{
+    margin: 6px 17px;
+}
+
+}
+
+
+.starter-profjects{
+    font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bd-placeholder-img{
+    object-fit: cover;
+}
+
+
+.projects-text,
+.fw-bold{
+    font-family: "Play", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.bi-arrow-up-right-circle{
+    transition: transform .25s ease-in-out;
+}
+
+.col .bi{
+    margin-right: 15px;
+    font-size: 18.2030px;
+    background-color: rgb(13, 110, 253);
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.features-paragraph{
+    font-family: "Anek Devanagari", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.skills-and-profession{
+    margin-top: 40px;
+}
+
+.margin-deduction{
+    margin-top: 0;
+}
+
+@media (max-width: 720px) {
+    .margin-deduction{
+        margin: 0 9px !important;
+        max-width: calc(99% - 18px) !important;
+    }
+}
+
+.mx-auto{
+    display: flex;
+    align-items: center !important;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sidebar-container{
+    padding-top: 80px;
+}
+
+
+@media (max-width: 720px) {
+    .gap-2{
+        display: flex !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .features-columns{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        max-width: 95% !important;
+    }
+}
+
+@media (max-width: 720px) {
+    #grid-features-container{
+        padding-bottom: 0 !important;
+    }
+}
+
+
+.menu-bar-for-ipads-and-mobile{
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 3030;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(7, 34, 54, 0.5);
+    cursor: pointer;
+}
+
+.menu-list-drop{
+    font-size: 30px;
+    color: rgb(13, 110, 253);
+}
+
+.menu-list-drop.none{
+    display: none;
+}
+
+.cancel-menu{
+    display: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.cancel-menu.block{
+    display: block;
+}
+
+@media (max-width: 240px) {
+    .card-body{
+        padding: 0 !important;
+    }
+}
+
+.text-style{
+    font-family: "Anek Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.menu-bar-for-ipads-and-mobile{
+    display: none;
+}
+
+@media (max-width: 720px) {
+    .menu-bar-for-ipads-and-mobile{
+        display: block;
+    }
+}
+
+@media (max-width: 270px) {
+    .small-screen-column{
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 830px) {
+    .small-screen-column{
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .small-screen-column{
+        flex-direction: row !important;
+    }
+}
+
+.duration{
+    color: hsl(0, 3%, 76%) !important;
+}
+
+.input-newsletter{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border: 0.5px solid rgb(158, 154, 154);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-bottom: 3px;
+}
+
+.text-newsletter{
+    margin-bottom: 1px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
