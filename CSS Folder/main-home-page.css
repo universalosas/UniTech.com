@@ -46,6 +46,7 @@ body{
 
 .swiper-section-design-container{
     margin-top: 80px;
+    display: none;
 }
 
 @media (max-width: 340px) {

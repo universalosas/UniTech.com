@@ -1,0 +1,687 @@
+.web-enginering{
+    padding: 20px 100px;
+}
+
+@media (max-width: 900px) {
+    .web-enginering{
+        padding: 20px 30px;
+    }
+}
+
+.quotations-paragraph{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(230, 224, 224);
+}
+
+.Abulm-name-heading{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+}
+
+.quotation{
+    width: 80%;
+    display: flex;
+}
+
+@media (max-width: 760px) {
+    .quotation{
+        width: 95%;
+    }
+}
+
+.quotation-icon{
+    font-size: 50px;
+    color: rgb(255, 250, 250);
+    margin-right: 40px;
+}
+
+@media (max-width: 550px) {
+    .quotation-icon{
+        margin-right: 15px;
+    }
+}
+
+.profile-image-c-O{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.osas-goody-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+}
+
+.Profile-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    margin-top: 20px;
+}
+
+@media (max-width: 760px) {
+    .Profile-info{
+        width: 95%;
+    }
+}
+
+.name-of-quoter{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(230, 224, 224);
+    margin: 0;
+    padding: 0; 
+}
+
+.post-held{
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+}
+
+.about-the-unitech{
+    padding: 20px 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .about-the-unitech{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .about-the-unitech{
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-the-unitech{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.head-text-company-info{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(238, 238, 238);
+    text-transform: capitalize;
+}
+
+.text-discription-about{
+    padding: 10px 45px;
+    width: 55%;
+}
+
+@media (max-width: 750px) {
+    .text-discription-about{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-discription-about{
+        width: auto;
+    }
+}
+
+
+.about-company-image{
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    justify-content: flex-end;
+}
+
+@media (max-width: 700px) {
+    .about-company-image{
+        width: 280px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-company-image{
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-company-image{
+        width: 100%;
+        height: 260px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .company-image-container{
+        width: 100%;
+    }
+}
+
+.unitech-page-paragraph-text{
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    margin-bottom: 50px !important;
+}
+
+.link-info-about{
+    padding: 20px 30px;
+    color: rgb(228, 224, 224);
+    background-color: rgb(16, 38, 97);
+    text-decoration: none;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.development-container{
+    padding: 20px 89px;
+}
+
+@media (max-width: 900px) {
+    .development-container{
+        padding: 20px 20px;
+    }
+}
+
+.container-development-abulm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .container-development-abulm{
+        flex-direction: column-reverse;
+    }
+}
+
+.web-development-image{
+    margin-right: 40px;
+}
+
+@media (max-width: 890px) {
+    .web-development-image{
+        margin-right: 20px;
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 700px) {
+    .web-development-image{
+        width: 90%;
+        height: auto;
+    }
+}
+
+.text-web-development{
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    margin-bottom: 50px !important;
+}
+
+.contact-btn{
+    color: rgb(231, 228, 228);
+    padding: 18px 35px;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-color: rgb(8, 8, 119);
+    border: none;
+}
+
+.our-web-development-field{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 35px;
+}
+
+@media (max-width: 700px) {
+    .our-web-development-field{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+.field-intranet-image{
+    object-fit: cover;
+    margin-left: 40px;
+}
+
+
+@media (max-width: 900px) {
+    .field-intranet-image{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 800px) {
+    .field-intranet-image{
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 700px) {
+    .field-intranet-image{
+        width: 90%;
+        height: auto;
+    }
+}
+
+.toggle-dropdown-btn{
+    border: none;
+    background: none;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    padding: 20px 50px;
+    border-bottom: 0.5px solid rgb(119, 118, 118);
+    padding-left: 0;
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.web-development-space-2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 30px 90px;
+}
+
+@media (max-width: 900px) {
+    .web-development-space-2{
+        padding: 35px 20px;
+    }
+}
+
+.websp2image{
+    width: 60%;
+    object-fit: cover;
+    height: 300px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+    border: solid 8px rgb(228, 222, 222);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
+}
+
+@media (max-width: 900px) {
+    .websp2image{
+        width: 80%;
+    }
+}
+
+@media (max-width: 680px) {
+    .websp2image{
+        width: 95%;
+    }
+}
+
+.webs2btn{
+    background-color: rgb(4, 37, 97);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.text-container-webs2{
+    width: 50%;
+}
+
+@media (max-width: 900px) {
+    .text-container-webs2{
+        width: 70%;
+    }
+}
+
+@media (max-width: 680px) {
+    .text-container-webs2{
+        width: 90%;
+    }
+}
+
+.graphic-text-container{
+    margin: 20px 120px;
+    padding: 5px 16px;
+    border-left: solid 6px rgb(73, 3, 3);
+}
+
+@media (max-width: 900px) {
+    .graphic-text-container{
+        margin: 20px 40px;
+    }
+}
+
+.text-graphic-heading{
+    font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(238, 235, 235);
+}
+
+.image-graphic-objects{
+    padding: 20px 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+@media (max-width: 900px) {
+    .image-graphic-objects{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .image-graphic-objects{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .image-graphic-objects{
+        padding: 20px;
+    }
+}
+
+.image-grid-work-template{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
+}
+
+@media (max-width: 650px) {
+    .image-grid-work-template{
+        height: 250px;
+    }
+}
+
+.paragraph-text-wt{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(238, 235, 235);
+    font-size: 20px;
+    color: rgb(218, 196, 196);
+    padding: 15px 9px;
+}
+
+.graphic-job-container{
+    padding: 20px 90px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .graphic-job-container{
+        padding: 20px 10px;
+    } 
+}
+
+@media (max-width: 700px) {
+    .graphic-job-container{
+        flex-direction: column-reverse;
+    } 
+}
+
+.graphic-image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+@media (max-width: 900px) {
+    .graphic-image{
+        margin: 0;
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 700px) {
+    .graphic-image{
+        width: 90%;
+        height: auto;
+    }
+} 
+
+.job-text-container{
+    padding: 20px 40px;
+}
+
+@media (max-width: 900px) {
+    .job-text-container{
+        padding: 20px 10px;
+    }
+}
+
+.job-c-2{
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 700px) {
+    .job-c-2{
+        flex-direction: column-reverse;
+    }
+}
+
+.all-we-offer-container{
+    display: flex;
+    align-items: center;
+    padding: 20px 90px;
+}
+
+@media (max-width: 900px) {
+    .all-we-offer-container{
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .all-we-offer-container{
+        flex-direction: column-reverse;
+    }
+}
+
+.offer-image-laptop{
+    margin-right: 55px;
+    width: 440px;
+}
+
+@media (max-width: 900px) {
+    .offer-image-laptop{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 760px) {
+    .offer-image-laptop{
+        width: 380px;
+    }
+}
+
+@media (max-width: 700px) {
+    .offer-image-laptop{
+        width: 480px;
+    }
+}
+
+.convincable-text{
+    padding: 18px 99px;
+}
+
+@media (max-width: 800px) {
+    .convincable-text{
+        padding: 18px 35px;
+    }
+}
+
+.engineer-image-ct{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 640px) {
+    .engineer-image-ct{
+        width: 90%;
+        height: 250px;
+    }
+}
+
+.profile-info-quote-2{
+    width: 90%;
+}
+
+.quotation-image{
+    width: 30px;
+    margin-right: 30px;
+}
+
+.client-comments{
+    padding: 20px 90px;
+}
+
+@media (max-width: 900px) {
+    .client-comments{
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width: 750px) {
+    .client-comments{
+        padding: 30px 10px;
+    }
+}
+
+.info-head-text-comment{
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.container-comments{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+@media (max-width: 900px) {
+    .container-comments{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container-comments{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+}
+
+.nested-container-comments{
+    background-color: rgba(2, 5, 29, 0.26);
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
+
+@media (max-width: 700px) {
+    .nested-container-comments{
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    .nested-container-comments{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+.quotation-image-comment{
+    width: 40px;
+    margin-bottom: 25px;
+}
+
+.image-commentator{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.profile-client{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.client-commeting-name{
+    margin: 0;
+    color: rgb(226, 223, 223);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(230, 224, 224);
+    padding: 0;
+}
+
+.category-o-client{
+    color: white;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal; 
+    margin: 0;
+}
+
+.none-display-comment-bg-screen{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .none-display-comment-bg-screen{
+        display: block;
+    } 
+}

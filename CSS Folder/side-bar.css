@@ -7,6 +7,7 @@
     background-color: rgb(9, 15, 27);
     color: white;
     overflow-y: scroll;
+    display: none;
 }
 
 .cancel-menubar{
@@ -19,6 +20,7 @@
     color: white;
     background-color: rgb(13, 110, 253);
     cursor: pointer;
+    display: none;
 }
 
 /* Creates responsive side bar for ipad users */
