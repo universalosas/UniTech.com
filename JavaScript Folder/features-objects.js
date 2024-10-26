@@ -77,13 +77,13 @@ export const uniTechSideBarLinks = [
     },
     {
         id: '',
-        text: '#',
-        Url: 'about-cloud-storage.html'
+        text: 'Cloud Storage',
+        Url: '#'
     },
     {
         id: '',
-        text: '#',
-        Url: 'storage-offer.html'
+        text: 'Storage Offer',
+        Url: '#'
     },
     {
         id: '',
